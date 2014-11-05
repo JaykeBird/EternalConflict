@@ -8,6 +8,12 @@ public class Main {
 		
 		// hello everybody
 		
+//<<<<<<< HEAD
+//=======
+		// I like lemonade
+		
+		// yes scratch
+//>>>>>>> refs/remotes/origin/master
 	}
 
 }
