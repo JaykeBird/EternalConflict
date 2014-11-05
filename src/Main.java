@@ -8,7 +8,6 @@ public class Main {
 		
 		// hello everybody
 		
-		System.out.println("hello");
 	}
 
 }
