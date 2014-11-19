@@ -1,0 +1,23 @@
+Character - stores information about each character on the playing field
+	isDefending
+	isAirborne
+	numberOfLives
+	etc.
+	
+Attack / Move - stores information about an attack or move a character has
+	damageAmount
+	range
+	
+	visual effect stuff
+	etc.
+	
+AI - AI
+	kind of self-explanatory
+	
+Stage - stores information about the stage the characters are fighting on
+	location
+	edgesWidth 
+	timeRemaining
+	etc.
+
+TODO: Figure out how we'll do game modes
