@@ -1,23 +1,30 @@
 Character - stores information about each character on the playing field
 	isDefending
 	isAirborne
-	numberOfLives
+	numberOfLives <--maybe this should be in a gameMode class
 	etc.
+	Export default characters as serializable file
+	[Dependent on Attack class (and Stage class?)]
 	
 Attack / Move - stores information about an attack or move a character has
 	damageAmount
 	range
-	
 	visual effect stuff
 	etc.
+	[Independent of other Classes]
 	
 AI - AI
 	kind of self-explanatory
+	[Dependent on Character class]
 	
 Stage - stores information about the stage the characters are fighting on
 	location
 	edgesWidth 
 	timeRemaining
 	etc.
+	[Independent of Other Classes]
+	
+Graphics/Frame - creates and maintains on-screen sprites and graphics
+	[Dependent on Character and Stage Classes]
 
 TODO: Figure out how we'll do game modes
