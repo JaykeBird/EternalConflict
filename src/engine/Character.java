@@ -1,4 +1,4 @@
-package ui;
+package engine;
 
 public class Character  //Tom
 {	
@@ -116,11 +116,11 @@ public class Character  //Tom
 		int damageTaken;
 		if (!isDefending)
 		{
-			damageTaken=attackHit.getDamage()*damageMultiplier;
+			damageTaken=(int) (attackHit.getDamage()*damageMultiplier);
 		}
 		else
 		{
-			damageTaken=attackHit.getDamage()*defendMultiplier;
+			damageTaken=(int) (attackHit.getDamage()*defendMultiplier);
 		}
 		healthPoints=healthPoints-damageTaken;
 	}
