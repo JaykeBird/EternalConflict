@@ -53,6 +53,20 @@ public class Character  //Tom
 		this.airAttack=airAttack;
 	}
 
+	public int getHealthPoints()
+	{
+		return healthPoints;
+	}
+	
+	public void setScreenName(String theName)
+	{
+		screenName = theName;
+	}//end method setScreenName
+	
+	public String getScreenName()
+	{
+		return screenName;
+	}//end method getScreenName
 	//TODO implement cycling of sprites and update sprite every 0.25 seconds
 	/**public BufferedImage getCurrentSprite()  WHAT FORMAT DO WE WANT TO USE FOR SPRITES?
 	{
