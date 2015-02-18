@@ -14,21 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/engine/achilles.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Documents/JavaBreakWork/GlobalWarming/EternalConflictTestProject/bin/achilles.png</locationURI>
-		</link>
-		<link>
-			<name>src/engine/test2.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Documents/JavaBreakWork/GlobalWarming/EternalConflictTestProject/bin/test2.png</locationURI>
-		</link>
-		<link>
-			<name>src/engine/test2Dead.png</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Documents/JavaBreakWork/GlobalWarming/EternalConflictTestProject/bin/test2Dead.png</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

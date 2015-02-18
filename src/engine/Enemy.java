@@ -109,23 +109,23 @@ public class Enemy extends Applet implements Runnable, KeyListener
 		
 	
 		//try/catch the sprite loading
-		try 
-		{
-			sprite = ImageIO.read(new File("achilles.png"));
-			sprite = makeTransparent(sprite);
-			
-			sprite1 = ImageIO.read(new File("test2.png"));
-			sprite1 = makeTransparent(sprite1);
-			
-			sprite2 = ImageIO.read(new File("test2Dead.png"));
-			sprite2 = makeTransparent(sprite2);
-		}//end try
-		catch (IOException e) 
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			System.out.print("Error getting image!");
-		}//end catch
+//		try 
+//		{
+////			sprite = ImageIO.read(new File("achilles.png"));
+////			sprite = makeTransparent(sprite);
+////			
+////			sprite1 = ImageIO.read(new File("test2.png"));
+////			sprite1 = makeTransparent(sprite1);
+////			
+////			sprite2 = ImageIO.read(new File("test2Dead.png"));
+////			sprite2 = makeTransparent(sprite2);
+//		}//end try
+//		catch (IOException e) 
+//		{
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//			System.out.print("Error getting image!");
+//		}//end catch
 
 
 	}//end method paint
